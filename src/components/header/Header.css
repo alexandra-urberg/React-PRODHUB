@@ -1,0 +1,33 @@
+.header {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20.5px;
+}
+
+.section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header__menu-button {
+    height: 56px;
+    width: 56px;
+    background-image: url(../../images/BTNsandwich_menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    border: none;
+}
+
+.header__menu-button:hover {
+    box-shadow:  1px 1px 32px #ffe600, -1px -1px 12px #ffed4d;
+}
+
+@media screen and (max-width: 540px) {
+    .section {
+        width: 89.3%;
+    }
+}
