@@ -4,7 +4,7 @@ import Container from "../container/Container";
 import Navigation from "../navigation/Navigation";
 import Icons from "../icons/Icons";
 
-function Header() {
+function Header({onOpen}) {
   return (
     <header className="header section">
       <>
@@ -15,7 +15,7 @@ function Header() {
         </MediaQuery>
         <MediaQuery maxWidth={540}>
           <Container />
-          <button className="header__menu-button"></button>
+          <button className="header__menu-button" onClick={onOpen}></button>
         </MediaQuery>
       </>
     </header>

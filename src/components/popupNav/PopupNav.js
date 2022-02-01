@@ -2,13 +2,13 @@ import React from "react";
 import Navigation from "../navigation/Navigation";
 import Icons from "../icons/Icons";
 
-function PopupNav() {
+function PopupNav({onClose, isOpen}) {
     return(
-        <div className="popupNav">
+        <div className={`popupNav ${isOpen ? "popupNav__open" : ""}`}>
             <div className="popupNav__container section">
             <div className="popupNav__box">
                 <h2 className="popupNav__title">Меню</h2>
-                <button className="popupNav__btn"></button>
+                <button className="popupNav__btn" onClick={onClose}></button>
             </div>
             <div className="popupNav__main">
             <Navigation />
