@@ -4,7 +4,7 @@ import MediaQuery from "react-responsive";
 function Navigation() {
   return (
     <nav className="navigation">
-      <MediaQuery maxWidth={540}>
+      <MediaQuery maxWidth={1064}>
         <h2 className="navigation__title">Навигация</h2>
       </MediaQuery>
       <ul className="navigation__container">
@@ -24,7 +24,7 @@ function Navigation() {
           </a>
         </li>
         <li className="navigation__links">
-          <a className="navigation__link" href="@">
+          <a className="navigation__link" href="#about">
             Обо мне
           </a>
         </li>

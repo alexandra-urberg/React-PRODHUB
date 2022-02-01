@@ -7,7 +7,7 @@ function Icons() {
   return (
     <div className="icons">
       <>
-        <MediaQuery minWidth={541}>
+        <MediaQuery minWidth={1065}>
           <a className="icon__link" href="@">
             <div className="icon icon_gold icon__telegram" />
           </a>
@@ -15,7 +15,7 @@ function Icons() {
             <div className="icon icon_gold icon__instagramm" />
           </a>
         </MediaQuery>
-        <MediaQuery maxWidth={540}>
+        <MediaQuery maxWidth={1064}>
           <h2 className="icons__title">Связь со мной</h2>
           <ul className="icons__container">
             <li className="icon__blue icons__btn">

@@ -29,7 +29,7 @@
   color: #feec47;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1064px) {
   .footer {
     align-items: center;
     padding-bottom: 48px;

@@ -8,12 +8,12 @@ function Header({ onOpen }) {
   return (
     <header className="header section">
       <>
-        <MediaQuery minWidth={541}>
+        <MediaQuery minWidth={1065}>
           <Container />
           <Navigation />
           <Icons />
         </MediaQuery>
-        <MediaQuery maxWidth={540}>
+        <MediaQuery maxWidth={1064}>
           <Container />
           <button className="header__menu-button" onClick={onOpen}></button>
         </MediaQuery>

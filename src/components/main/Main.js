@@ -1,10 +1,12 @@
 import React from "react";
+import Examples from "../examples/Examples";
 import About from "../about/About";
 
 function Main() {
-  return(
+  return (
     <main className="main section">
-        <About/>
+      <Examples />
+      <About />
     </main>
   );
 }

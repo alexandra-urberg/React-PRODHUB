@@ -37,7 +37,7 @@
   background-image: url(../../images/instagram_black.png);
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1064px) {
   .icons {
     flex-direction: column;
     align-items: center;
@@ -76,18 +76,13 @@
       );
   }
 
-  .icon__blue:hover, .icon__pink:hover {
-    background: linear-gradient(80.24deg, #FFE600 0%, #FFED4D 100%);;
+  .icon__blue:hover,
+  .icon__pink:hover {
+    background: linear-gradient(80.24deg, #ffe600 0%, #ffed4d 100%);
   }
 
   .icons__btn {
-    width: 48%;
     border-radius: 16px;
-    padding: 16px 4% 15px;
-  }
-
-  .icons__btn:nth-child(2) {
-    margin-left: 4%;
   }
 
   .icon__instagramm {
@@ -113,5 +108,55 @@
     font-style: normal;
     font-weight: normal;
     margin-left: 13px;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1064px) {
+  .icon__blue,
+  .icon__pink {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icons__btn {
+    width: 38%;
+    padding: 19px 0 17px;
+  }
+
+  .icons__btn:nth-child(2) {
+    margin-left: 24%;
+  }
+
+}
+
+@media screen and (min-width: 440px) and (max-width: 750px) {
+  .icon__blue,
+  .icon__pink {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icons__btn {
+    width: 42%;
+    padding: 19px 0 17px;
+  }
+
+  .icons__btn:nth-child(2) {
+    margin-left: 16%;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .icon__blue,
+  .icon__pink {
+    display: flex;
+  }
+
+  .icons__btn {
+    width: 48%;
+    padding: 16px 4% 15px;
+  }
+  .icons__btn:nth-child(2) {
+    margin-left: 4%;
   }
 }

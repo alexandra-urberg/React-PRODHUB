@@ -28,7 +28,7 @@
   color: #636363;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1064px) {
   .navigation {
     margin: 0 auto 60px;
   }
