@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__icon {
+    background-image: url(../../images/Icon-2.svg);
+    background-size: 37px 34px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 44px;
+    height: 44px;
+    background-color: #ffeb3d;
+    border-radius: 8px;
+}
+
+.container__title {
+    font-size: 1.5em;
+    font-weight: 900;
+    line-height: 26.4px;
+    margin:0 0 0 12px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 540px) {
+    .container__icon {
+        width: 36px;
+        height: 36px;
+        background-size: 24.5px 19.64px;
+    }
+}
