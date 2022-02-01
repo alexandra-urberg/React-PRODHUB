@@ -18,12 +18,6 @@
   flex-direction: column;
 }
 
-.about__title {
-  font-size: 3em;
-  line-height: 52.8px;
-  font-weight: normal;
-  color: #feec47;
-}
 
 .about__subtitle {
   font-size: 1.87em;
