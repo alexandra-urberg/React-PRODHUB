@@ -1,0 +1,37 @@
+.offer {
+  width: 65.8%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 192px 0;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.offer__margin {
+  margin-bottom: 8px;
+}
+
+.offer__margin_b {
+  margin-bottom: 24px;
+}
+
+.instagramm {
+  width: 19px;
+  height: 19px;
+}
+
+.telegram {
+  width: 20px;
+  height: 17px;
+}
+
+@media screen and (max-width: 1130px) {
+    .offer {
+      width: 100%;
+      padding: 96px 0;
+    }
+  }
