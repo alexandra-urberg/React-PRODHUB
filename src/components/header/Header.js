@@ -4,7 +4,7 @@ import Container from "../container/Container";
 import Navigation from "../navigation/Navigation";
 import Icons from "../icons/Icons";
 
-function Header({onOpen}) {
+function Header({ onOpen }) {
   return (
     <header className="header section">
       <>

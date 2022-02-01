@@ -11,8 +11,8 @@
 }
 
 .popupNav__open {
-    display: flex;
-    opacity: 1;
+  display: flex;
+  opacity: 1;
 }
 
 .popupNav__container {

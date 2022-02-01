@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react';
-import '../../index.css';
-import Header from '../header/Header';
-import Main from '../main/Main';
-import Footer from '../footer/Footer';
-import PopupNav from '../popupNav/PopupNav';
+import React, { useState, useEffect } from "react";
+import "../../index.css";
+import Header from "../header/Header";
+import Main from "../main/Main";
+import Footer from "../footer/Footer";
+import PopupNav from "../popupNav/PopupNav";
 
 function App() {
   const [isPopupNavOpen, setIsPopupNavOpen] = useState(false);
@@ -14,7 +14,6 @@ function App() {
 
   const handleClosePopup = () => {
     setIsPopupNavOpen(false);
-   
   };
 
   useEffect(() => {
@@ -34,10 +33,10 @@ function App() {
 
   return (
     <div className="app">
-      <Header onOpen={handleOpenPopup}/>
-      <Main/>
-      <Footer/>
-      <PopupNav onClose={handleClosePopup} isOpen={isPopupNavOpen}/>
+      <Header onOpen={handleOpenPopup} />
+      <Main />
+      <Footer />
+      <PopupNav onClose={handleClosePopup} isOpen={isPopupNavOpen} />
     </div>
   );
 }
