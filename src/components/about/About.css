@@ -33,11 +33,10 @@
 }
 
 .about__box {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  list-style: none;
-  justify-content: end;
-  margin-top: 64px;
+  margin-top: 32px;
 }
 
 .box {
@@ -56,22 +55,14 @@
   border-radius: 16px;
 }
 
-.about__description {
-  font-size: 1.5em;
-  line-height: 36px;
-  font-weight: normal;
-  margin-left: 12px;
+.ml {
+    margin-left: 12px;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 750px) {
   .about {
     display: flex;
     flex-direction: column;
-  }
-
-  .about__title {
-    font-size: 1.87em;
-    line-height: 33px;
   }
 
   .about__subtitle {
@@ -79,11 +70,6 @@
     font-size: 1.12em;
     line-height: 27px;
     margin: 8px 0 24px;
-  }
-
-  .about__description {
-    font-size: 1.12em;
-    line-height: 27px;
   }
 
   .about__box {
