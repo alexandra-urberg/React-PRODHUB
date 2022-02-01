@@ -1,9 +1,10 @@
 import React from "react";
+import About from "../about/About";
 
 function Main() {
   return(
-    <main className="main">
-        <h2>Hi!</h2>
+    <main className="main section">
+        <About/>
     </main>
   );
 }
