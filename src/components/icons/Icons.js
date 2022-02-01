@@ -21,13 +21,13 @@ function Icons() {
             <li className="icon__blue icons__btn">
               <a className="icons__link" href="@">
                     <img className="icon__telegram" src={telegaWhite} alt="telegram_icon"/>
-                    <h3 className="icon__subtitle">Telegram</h3>
+                    <p className="icon__subtitle">Telegram</p>
               </a>
             </li>
             <li className="icon__pink icons__btn">
               <a className="icons__link" href="@">
                 <img className="icon__instagramm" src={instaWhite} alt="instagram_icon"/>
-                <h3 className="icon__subtitle">Instagram</h3>
+                <p className="icon__subtitle">Instagram</p>
               </a>
             </li>
           </ul>
