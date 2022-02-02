@@ -1,23 +1,27 @@
 @font-face {
-  src: url("./Inter-Regular.woff2") format("woff2"),
-    url("./Inter-Regular.woff") format("woff");
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  src: url("Inter-Medium.woff2") format("woff2"),
-    url("Inter-Medium.woff") format("woff");
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  src: url("Inter-Black.woff") format("woff2"),
-    url("Inter-Black.woff") format("woff");
-  font-family: "Inter";
-  font-style: normal;
+  src: url("NunitoSans-BlackItalic.ttf") format("truetype");
+  font-family: "Nunito Sans";
   font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  src: url("NunitoSans-Black.ttf") format("truetype");
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  font-style: bold;
+}
+
+@font-face {
+  src: url("OpenSans-Regular.ttf") format("truetype");
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("OpenSans-Bold.ttf") format("truetype");
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-style: bold;
 }
