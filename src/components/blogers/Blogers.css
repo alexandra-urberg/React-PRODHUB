@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .blogers_mg {
@@ -34,7 +35,32 @@
   border-radius: 24px;
 }
 
-@media screen and (max-width: 740px) {
+.blogers__list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 416px);
+  justify-content: center;
+  grid-auto-flow: row;
+  column-gap: 32px;
+  row-gap: 24px;
+  list-style: none;
+  margin-top: 48px;
+}
+
+.bloger__offer {
+  width: 536px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 1919px) and (max-width: 2000px) {
+  .bloger__offer {
+    position: absolute;
+    bottom: 119px;
+    right: 120px;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .blogers {
     text-align: left;
   }
@@ -51,5 +77,15 @@
 
   .blogers__box {
     padding: 16px 16px 16px 19.7px;
+  }
+
+  .blogers__list {
+    grid-template-columns: repeat(auto-fit, 470px);
+    column-gap: 24px;
+  }
+
+  .bloger__offer {
+    width: 100%;
+    text-align: center;
   }
 }
