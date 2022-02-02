@@ -7,10 +7,10 @@ import info from "../../images/info.svg";
 
 function Examples() {
   return (
-    <section className="examples">
+    <section className="examples" id="examples">
       <h2 className="title mb">
-        Помогаем блогерам продавать на{" "}
-        <span className="gold-font">миллионы</span>
+        Помогаем блогерам продавать на
+        <span className="gold-font"> миллионы</span>
       </h2>
       <>
         <MediaQuery minWidth={701}>
@@ -28,7 +28,7 @@ function Examples() {
             </li>
             <li className="examples__box mb">
               <img className="examples__img" src={success} alt="advertising" />
-              <p className="description grid">
+              <p className="description grid exaples__ta">
                 Наш многолетний практический опыт и ваша аудитория — дадут новые
                 результаты. Мы совместно запустим курс в продажу на вашу
                 аудиторию и поделим прибыль. Все вложения и затраты берем на
@@ -75,8 +75,8 @@ function Examples() {
               <div className="description__box">
                 <img className="discription__img" src={info} alt="logo" />
                 <p className="description">
-                  Блогеры, с которыми мы сотрудничали уже заработали{" "}
-                  <span className="bold">от 100 000 до 7 000 000 </span> чистой
+                  Блогеры, с которыми мы сотрудничали уже заработали
+                  <span className="bold"> от 100 000 до 7&nbsp;000 000 </span> чистой
                   прибыли <span className="bold">за 30 дней</span>
                 </p>
               </div>

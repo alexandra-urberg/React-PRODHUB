@@ -7,9 +7,9 @@
 
 .title {
   font-size: 3em;
+  font-family: "Nunito Sans";
+  font-weight: 900;
   line-height: 52.8px;
-  font-weight: normal;
-  letter-spacing: 2%;
 }
 
 .gold-font {
@@ -46,11 +46,18 @@
   grid-area: info;
   width: 100%;
 }
+.border {
+  border-radius: 24px;
+  background: linear-gradient(69.11deg, #3a3c42 0%, #747885 100%);
+  padding: 3px;
+}
 
 .description {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.5em;
   line-height: 36px;
-  font-weight: normal;
 }
 
 .mb {
@@ -61,7 +68,20 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 700px) {
+.description__box {
+  display: flex;
+  border-radius: 24px;
+  background: linear-gradient(69.11deg, #242529 0%, #1b1c1f 100%);
+  padding: 16px 16px 16px 19.7px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.exaples__ta {
+  text-align: left;
+}
+
+@media screen and (max-width: 950px) {
   .examples__container {
     display: flex;
     flex-direction: column;
@@ -73,7 +93,7 @@
   }
 
   .description {
-    font-size: 1.12em;
+    font-size: 1.1em;
     line-height: 27px;
   }
 
@@ -83,24 +103,6 @@
 
   .mbl {
     margin-bottom: 12px;
-  }
-
-  .border {
-    position: relative;
-    padding: 3px;
-    border-radius: 24px;
-    position: relative;
-    background: linear-gradient(69.11deg, #3a3c42 0%, #747885 100%);
-    padding: 3px;
-  }
-
-  .description__box {
-    display: flex;
-    border-radius: 24px;
-    background: linear-gradient(69.11deg, #242529 0%, #1b1c1f 100%);
-    padding: 16px 19.7px 16px 16px;
-    align-items: flex-start;
-    text-align: left;
   }
 
   .discription__img {

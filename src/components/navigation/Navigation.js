@@ -9,7 +9,7 @@ function Navigation() {
       </MediaQuery>
       <ul className="navigation__container">
         <li className="navigation__links">
-          <a className="navigation__link" href="@">
+          <a className="navigation__link" href="#examples">
             Главная
           </a>
         </li>
@@ -19,7 +19,7 @@ function Navigation() {
           </a>
         </li>
         <li className="navigation__links">
-          <a className="navigation__link" href="@">
+          <a className="navigation__link" href="#work">
             Процессы работы
           </a>
         </li>

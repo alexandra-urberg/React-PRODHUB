@@ -8,15 +8,15 @@ function About() {
   return (
     <section className="about" id="about">
       <>
-        <MediaQuery minWidth={751}>
+        <MediaQuery minWidth={901}>
           <img className="about_img" src={img} alt="self_portrait"></img>
           <div className="about__container">
             <h3 className="title gold-font">Обо мне</h3>
             <p className="about__subtitle">
               Главный продюсер ProdHub — Роман Сеймур
             </p>
-            <ul className="about__box">
-              <li className="box">
+            <ul className="about__box mt">
+              <li className="box work__at">
                 <img
                   className="about__icon"
                   src={clock}
@@ -24,7 +24,7 @@ function About() {
                 />
                 <p className="description ml">В инфобизнесе с 2017 года</p>
               </li>
-              <li className="box">
+              <li className="box work__at">
                 <img
                   className="about__icon"
                   src={money}
@@ -37,20 +37,20 @@ function About() {
             </ul>
           </div>
         </MediaQuery>
-        <MediaQuery maxWidth={750}>
-          <h3 className="about__title">Обо мне</h3>
+        <MediaQuery maxWidth={900}>
+          <h3 className="title gold-font">Обо мне</h3>
           <p className="about__subtitle">
             Главный продюсер ProdHub — Роман Сеймур
           </p>
           <img className="about_img" src={img} alt="self_portrait"></img>
-          <ul className="about__box">
-            <li className="box">
+          <ul className="about__box mt">
+            <li className="box work__at">
               <img className="about__icon" src={clock} alt="clock__icon"></img>
-              <p className="about__description ml">В инфобизнесе с 2017 года</p>
+              <p className="description ml">В инфобизнесе с 2017 года</p>
             </li>
-            <li className="box">
+            <li className="box work__at">
               <img className="about__icon" src={money} alt="money__icon"></img>
-              <p className="about__description ml">
+              <p className="description ml">
                 Сделал продаж более чем на $3,000,000
               </p>
             </li>

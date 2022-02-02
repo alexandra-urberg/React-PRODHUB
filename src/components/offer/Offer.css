@@ -7,6 +7,14 @@
   justify-content: center;
 }
 
+.offer__title {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 26.4px;
+  font-family: "Nunito Sans";
+  font-weight: 900;
+}
+
 .text {
   text-align: center;
 }
@@ -30,8 +38,16 @@
 }
 
 @media screen and (max-width: 1130px) {
-    .offer {
-      width: 100%;
-      padding: 96px 0;
-    }
+  .offer {
+    width: 100%;
+    padding: 96px 0;
   }
+}
+
+@media screen and (min-width: 740px) {
+  .offer__title {
+    font-size: 3em;
+    line-height: 52.8px;
+  }
+  
+}

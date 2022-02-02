@@ -5,7 +5,7 @@ import instaWhite from "../../images/insta_white.png";
 function Offer() {
   return (
     <section className="offer">
-      <h2 className="title text offer__margin">
+      <h2 className="offer__title offer__margin">
         Мы предлагаем вам сделать{" "}
         <span className="gold-font"> совместный запуск</span>
       </h2>
