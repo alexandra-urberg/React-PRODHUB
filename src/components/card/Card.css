@@ -1,0 +1,150 @@
+.card {
+  width: 416px;
+  height: 490px;
+  border-radius: 32px;
+  background: linear-gradient(69.11deg, #242529 0%, #1b1c1f 100%);
+  margin: 0 auto;
+}
+
+.card__container {
+  display: grid;
+  width: 368px;
+  height: 56px;
+  padding: 24px;
+}
+
+.card__user {
+  display: grid;
+  grid-template-columns: fit-content(56px) fit-content(300px);
+  grid-template-areas: "image information";
+  column-gap: 12px;
+}
+
+.card__image {
+  grid-area: image;
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+}
+
+.card__user-personality {
+  grid-area: information;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__name {
+  font-size: 1.5em;
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  line-height: 26.4px;
+}
+
+.card__user-information {
+  display: flex;
+  align-items: center;
+}
+
+.card__icon {
+  width: 18.74px;
+  height: 18.74px;
+}
+
+.card__insta-name {
+  font-size: 1.12em;
+  line-height: 27px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin-left: 6.63px;
+}
+
+.card__area {
+  font-size: 1.12em;
+  line-height: 19.8px;
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  font-style: italic;
+  margin: 24px 0;
+  text-align: left;
+  height: 40px;
+}
+
+.card__box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.card__user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__amount {
+  font-size: 1.12em;
+  line-height: 19.8px;
+  font-family: "Nunito Sans";
+  font-weight: 900;
+}
+
+.card__amount-new {
+  background: linear-gradient(69.11deg, #242529 0%, #1b1c1f 100%);
+  border-radius: 16px;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.card__money {
+  font-size: 1.87em;
+  line-height: 33px;
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  margin-top: 4px;
+}
+
+.card__button {
+  width: 368px;
+  background: linear-gradient(80.24deg, #ffe600 0%, #ffed4d 100%);
+  border: none;
+  border-radius: 16px;
+  margin-top: 24px;
+}
+
+.card__button:hover {
+  box-shadow: 1px 1px 32px #ffe600, -1px -1px 12px #ffed4d;
+}
+
+.card__button-text {
+  color: #181818;
+  font-size: 1.12em;
+  line-height: 24.5px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  padding: 16px 0 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 335px;
+    height: 470px;
+    border-radius: 32px;
+    background: linear-gradient(69.11deg, #242529 0%, #1b1c1f 100%);
+  }
+
+  .card__user, .card:nth-of-type(2) {
+    align-items: center;
+  }
+
+  .card:nth-of-type(2) {
+    height: 500px;
+  }
+
+  .card__button {
+    width: 287px;
+  }
+
+  .card__container {
+    width: 287px;
+  }
+}
