@@ -86,6 +86,9 @@
 }
 
 @media screen and (max-width: 950px) {
+  .examples {
+    padding: 0 0 96px;
+  }
   .examples__container {
     display: flex;
     flex-direction: column;

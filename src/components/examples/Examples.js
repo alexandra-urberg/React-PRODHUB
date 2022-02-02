@@ -76,10 +76,7 @@ function Examples() {
                 <img className="discription__img" src={info} alt="logo" />
                 <p className="description">
                   Блогеры, с которыми мы сотрудничали уже заработали
-                  <span className="bold">
-                    {" "}
-                    от 100 000 до 7&nbsp;000 000{" "}
-                  </span>{" "}
+                  <span className="bold">от 100 000 до 7&nbsp;000 000</span>
                   чистой прибыли <span className="bold">за 30 дней</span>
                 </p>
               </div>

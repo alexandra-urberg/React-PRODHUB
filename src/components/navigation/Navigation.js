@@ -2,6 +2,7 @@ import React from "react";
 import MediaQuery from "react-responsive";
 
 function Navigation() {
+  
   return (
     <nav className="navigation">
       <MediaQuery maxWidth={1064}>
@@ -9,7 +10,7 @@ function Navigation() {
       </MediaQuery>
       <ul className="navigation__container">
         <li className="navigation__links">
-          <a className="navigation__link" href="#examples">
+          <a className="navigation__link" href="#main">
             Главная
           </a>
         </li>

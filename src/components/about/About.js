@@ -43,7 +43,7 @@ function About() {
             <li className="box work__at">
               <img className="about__icon" src={money} alt="money__icon"></img>
               <p className="description ml">
-                Сделал продаж более чем на $3,000,000
+                Сделал продаж более чем на $3,000,000
               </p>
             </li>
           </ul>

@@ -22,7 +22,8 @@
 .about__subtitle {
   font-size: 1.87em;
   line-height: 33px;
-  font-weight: normal;
+  font-weight: 900;
+  font-family: 'Nunito Sans';
   margin-top: 12px;
 }
 

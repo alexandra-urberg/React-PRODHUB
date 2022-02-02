@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import instaColor from "../../images/insta_color.png";
+import PopupReview from "../popupReview/PopupReview";
 
 function Card(card) {
+  const [isPopupVideo, setIsPopupVideo] = useState(false);
+
+  const handleOpenVideo = () => {
+    setIsPopupVideo(true);
+  };
+
+  const handleCloseVideo= () => {
+    setIsPopupVideo(false);
+  };
+
   return (
     <li className="card">
       <div className="card__container">
@@ -40,8 +51,14 @@ function Card(card) {
             <p className="card__money gold">{card.salary_after}&#8381;</p>
           </div>
         </div>
-        <button className="card__button card__button-text" href="@">Видеоотзыв</button>
+        <button
+          className="card__button card__button-text"
+          onClick={handleOpenVideo}
+        >
+          Видеоотзыв
+        </button>
       </div>
+      <PopupReview onClose={handleCloseVideo} isOpen={isPopupVideo} />
     </li>
   );
 }

@@ -148,3 +148,17 @@
     width: 287px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .card {
+    width: 300px;
+  }
+
+  .card__container {
+    width: 230px;
+    padding: 8px;
+  }
+  
+}
+
+

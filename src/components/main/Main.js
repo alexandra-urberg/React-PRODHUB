@@ -1,4 +1,5 @@
 import React from "react";
+import Promo from "../promo/Promo";
 import Examples from "../examples/Examples";
 import Blogers from "../blogers/Blogers";
 import Work from "../work/Work";
@@ -8,8 +9,9 @@ import Offer from "../offer/Offer";
 function Main() {
   return (
     <main className="main section">
+      <Promo />
       <Examples />
-      <Blogers />
+      <Blogers/>
       <Work />
       <About />
       <Offer />
