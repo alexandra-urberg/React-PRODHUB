@@ -14,7 +14,7 @@ function Navigation() {
           </a>
         </li>
         <li className="navigation__links">
-          <a className="navigation__link" href="@">
+          <a className="navigation__link" href="#blogers">
             Кейсы
           </a>
         </li>

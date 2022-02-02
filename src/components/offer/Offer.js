@@ -6,7 +6,7 @@ function Offer() {
   return (
     <section className="offer">
       <h2 className="offer__title offer__margin">
-        Мы предлагаем вам сделать{" "}
+        Мы предлагаем вам сделать
         <span className="gold-font"> совместный запуск</span>
       </h2>
       <p className="description text offer__margin_b">

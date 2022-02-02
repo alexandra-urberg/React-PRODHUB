@@ -19,7 +19,9 @@ function Work() {
           </li>
           <li className="box work__at">
             <p className="work__border work__number gold">03</p>
-            <p className="description ml width">Делаем подробный прогрев план</p>
+            <p className="description ml width">
+              Делаем подробный прогрев план
+            </p>
           </li>
           <li className="box">
             <p className="work__border work__number gold">04</p>

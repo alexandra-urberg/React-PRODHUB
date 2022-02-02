@@ -17,19 +17,11 @@ function About() {
             </p>
             <ul className="about__box mt">
               <li className="box work__at">
-                <img
-                  className="about__icon"
-                  src={clock}
-                  alt="clock__icon"
-                />
+                <img className="about__icon" src={clock} alt="clock__icon" />
                 <p className="description ml">В инфобизнесе с 2017 года</p>
               </li>
               <li className="box work__at">
-                <img
-                  className="about__icon"
-                  src={money}
-                  alt="money__icon"
-                />
+                <img className="about__icon" src={money} alt="money__icon" />
                 <p className="description ml">
                   Сделал продаж более чем на $3,000,000
                 </p>

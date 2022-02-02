@@ -1,9 +1,9 @@
-import AlexeyImg from '../images/unsplash_3TLl_97HNJo-2';
-import MariaImg from '../images/unsplash_3TLl_97HNJo-3';
-import EgorImg from '../images/unsplash_3TLl_97HNJo-4';
-import DariaImg from '../images/unsplash_3TLl_97HNJo-5';
-import none from '../index/unsplash_3TLl_97HNJo-6';
-import PolinaImg from '../images/unsplash_3TLl_97HNJo';
+import AlexeyImg from '../images/unsplash_3TLl_97HNJo-2.jpg';
+import MariaImg from '../images/unsplash_3TLl_97HNJo-3.jpg';
+import EgorImg from '../images/unsplash_3TLl_97HNJo-4.jpg';
+import DariaImg from '../images/unsplash_3TLl_97HNJo-5.jpg';
+import none from '../images/unsplash_3TLl_97HNJo-6.jpg';
+import PolinaImg from '../images/unsplash_3TLl_97HNJo.jpg';
 
 const blogerInfo = [
     {
@@ -13,9 +13,10 @@ const blogerInfo = [
         bussines: "Лайфстайл, домохозяйка",
         subscribers: 43.7,
         stories: 7,
-        salaru_before: "50 000 - 70 000",
-        salaru_after: "700 000",
+        salary_before: "50 000 - 70 000",
+        salary_after: "700 000",
         review: "#",
+        id: 1,
     },
     {
         image: AlexeyImg,
@@ -24,9 +25,10 @@ const blogerInfo = [
         bussines: "Предприниматель, общественный деятель",
         subscribers: 78.1,
         stories: 15,
-        salaru_before: "150 000 - 200 000",
-        salaru_after: "1 800 000",
+        salary_before: "150 000 - 200 000",
+        salary_after: "1 800 000",
         review: "#",
+        id: 2,
     },
     {
         image: MariaImg,
@@ -35,9 +37,10 @@ const blogerInfo = [
         bussines: "Контент для слабослышащих, Лайфстайл, домохозяйка",
         subscribers: 54.1,
         stories: 15,
-        salaru_before: "300 000 - 500 000",
-        salaru_after: "7 300 000",
+        salary_before: "300 000 - 500 000",
+        salary_after: "7 300 000",
         review: "#",
+        id: 3,
     },
     {
         image: EgorImg,
@@ -46,9 +49,10 @@ const blogerInfo = [
         bussines: "Лайфстайл, саморазвитие, здоровый образ жизни",
         subscribers: 21.2,
         stories: 6,
-        salaru_before: "10 000 - 20 000",
-        salaru_after: "299 000",
+        salary_before: "10 000 - 20 000",
+        salary_after: "299 000",
         review: "#",
+        id: 4,
     },
     {
         image: DariaImg,
@@ -57,9 +61,10 @@ const blogerInfo = [
         bussines: "Лайфстайл, бьюти",
         subscribers: 39.9,
         stories: 4,
-        salaru_before: "50 000 - 70 000",
-        salaru_after: "380 000",
+        salary_before: "50 000 - 70 000",
+        salary_after: "380 000",
         review: "#",
+        id: 5,
     },
     {
         image: none,
@@ -68,9 +73,10 @@ const blogerInfo = [
         bussines: "-",
         subscribers: "-",
         stories: "-",
-        salaru_before: "-",
-        salaru_after: "-",
+        salary_before: "-",
+        salary_after: "-",
         review: "#",
+        id: 6,
     },
     {
         image: none,
@@ -79,9 +85,10 @@ const blogerInfo = [
         bussines: "-",
         subscribers: "-",
         stories: "-",
-        salaru_before: "-",
-        salaru_after: "-",
+        salary_before: "-",
+        salary_after: "-",
         review: "#",
+        id: 7,
     },
 ]
 

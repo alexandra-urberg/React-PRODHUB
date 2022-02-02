@@ -3,7 +3,6 @@
   align-items: center;
   grid-template-columns: fit-content(40.2%) fit-content(48.8%);
   grid-template-areas: "image information";
-  column-gap: auto;
   justify-content: space-between;
   padding-top: 192px;
 }
