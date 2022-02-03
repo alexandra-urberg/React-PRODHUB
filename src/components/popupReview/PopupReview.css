@@ -45,6 +45,7 @@
   width: 99%;
   height: 512px;
   border-radius: 16px;
+  border: none;
 }
 
 @media screen and (max-width: 700px) {

@@ -13,7 +13,7 @@ function PopupReview({ isOpen, onClose, video }) {
             onClick={onClose}
           ></button>
         </div>
-        <iframe  className="popupReview__img" title="trueTitle" src={isOpen ? video : ""} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <iframe  className="popupReview__img" title="trueTitle" src={isOpen ? video : ""} allow="accelerometer clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
       </div>
     </div>
   );
