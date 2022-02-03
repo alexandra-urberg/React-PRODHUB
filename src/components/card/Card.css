@@ -1,5 +1,5 @@
 .card {
-  width: 416px;
+  width: 100%;
   height: 490px;
   border-radius: 32px;
   background: linear-gradient(69.11deg, #242529 0%, #1b1c1f 100%);
@@ -7,8 +7,10 @@
 }
 
 .card__container {
-  display: grid;
-  width: 368px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 89%;
   height: 56px;
   padding: 24px;
 }
@@ -18,6 +20,7 @@
   grid-template-columns: fit-content(56px) fit-content(300px);
   grid-template-areas: "image information";
   column-gap: 12px;
+  width: 100%;
 }
 
 .card__image {
@@ -56,6 +59,13 @@
   font-family: "Open Sans";
   font-weight: 400;
   margin-left: 6.63px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.card__insta-name:hover {
+  color: gold;
 }
 
 .card__area {
@@ -67,18 +77,24 @@
   margin: 24px 0;
   text-align: left;
   height: 40px;
+  width: 100%;
 }
 
 .card__box {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .card__user-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.card__user-mg {
+  margin-top: 18px;
 }
 
 .card__amount {
@@ -103,12 +119,17 @@
   margin-top: 4px;
 }
 
+.border__width {
+  width: 100%;
+}
+
 .card__button {
-  width: 368px;
+  width: 100%;
   background: linear-gradient(80.24deg, #ffe600 0%, #ffed4d 100%);
   border: none;
   border-radius: 16px;
   margin-top: 24px;
+  cursor: pointer;
 }
 
 .card__button:hover {
@@ -124,15 +145,116 @@
   padding: 16px 0 15px;
 }
 
-@media screen and (max-width: 500px) {
-  .card {
-    width: 335px;
-    height: 470px;
-    border-radius: 32px;
-    background: linear-gradient(69.11deg, #242529 0%, #1b1c1f 100%);
+@media screen and (min-width: 1036px) and (max-width: 1079px) {
+  .card__user-mg {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1036px) {
+  .card__user-mg {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1079px) {
+  .border__width {
+    width: 100%;
   }
 
-  .card__user, .card:nth-of-type(2) {
+  .card__name-sp {
+    font-size: 1em;
+    height: 30px;
+  }
+
+  .card__name-s {
+    font-size: 1.4em;
+  }
+
+  .card__user {
+    grid-template-columns: fit-content(56px) fit-content(280px);
+  }
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px){
+  .card__user-mg {
+    margin-top: 1px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 928px) {
+  .card__user-mg {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (min-width: 560px) and (max-width: 800px) {
+  .card__container {
+    width: 92%;
+    padding: 15px;
+  }
+
+  .card__user {
+    grid-template-columns: fit-content(65px) fit-content(350px);
+    column-gap: 15px;
+  }
+
+  .card__button-wdt {
+    width: 100%;
+  }
+
+  .card__image {
+    width: 65px;
+    height: 65px;
+  }
+
+  .card__name {
+    font-size: 1.6em;
+  }
+
+  .card__icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .card__insta-name {
+    font-size: 1.2em;
+    line-height: 29px;
+  }
+
+  .card__area {
+    font-size: 1.2em;
+    line-height: 22px;
+  }
+
+  .card__button-text {
+    font-size: 1.2;
+  }
+
+  .card__amount {
+    font-size: 1.2em;
+  }
+
+  .border__width {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 450px) {
+  .card__container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .card__button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 390px) {
+  .card__user,
+  .card:nth-of-type(2) {
     align-items: center;
   }
 
@@ -145,20 +267,42 @@
   }
 
   .card__container {
-    width: 287px;
+    width: 84%;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .card {
-    width: 300px;
-  }
-
   .card__container {
-    width: 230px;
-    padding: 8px;
+    width: 92%;
+    padding: 9px;
   }
-  
+
+  .card__user {
+    display: grid;
+    grid-template-columns: fit-content(56px) fit-content(200px);
+    grid-template-areas: "image information";
+    column-gap: 10px;
+  }
+
+  .card__area {
+    font-size: 1em;
+    line-height: 16.8px;
+    width: 270px;
+  }
+
+  .card__box {
+    width: 260px;
+  }
+
+  .card__insta-name {
+    font-size: 1em;
+  }
+
+  .border__width {
+    width: 254px;
+  }
+
+  .card__button-wdt {
+    width: 260px;
+  }
 }
-
-
