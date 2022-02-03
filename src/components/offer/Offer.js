@@ -15,7 +15,7 @@ function Offer() {
       </p>
       <ul className="icons__container">
         <li className="icon__blue icons__btn">
-          <a className="icons__link" href="@">
+          <a className="icons__link" href="https://t.me/romashas">
             <img
               className="telegram"
               src={telegaWhite}
@@ -25,7 +25,7 @@ function Offer() {
           </a>
         </li>
         <li className="icon__pink icons__btn">
-          <a className="icons__link" href="@">
+          <a className="icons__link" href="https://instagram.com/romashaseymur?utm_medium=copy_link">
             <img
               className="instagramm"
               src={instaWhite}

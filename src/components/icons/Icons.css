@@ -71,6 +71,7 @@
   align-items: center;
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 .icon__subtitle {
@@ -98,6 +99,7 @@
 .icons__btn {
   width: 161px;
   height: 56px;
+  cursor: pointer;
 }
 
 .icons__btn:nth-child(2) {

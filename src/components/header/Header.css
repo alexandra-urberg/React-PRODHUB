@@ -7,7 +7,7 @@
 }
 
 .section {
-  width: 68.34%;
+  width: 1312px;
   margin: 0 auto;
 }
 
@@ -20,10 +20,17 @@
   background-size: cover;
   border-radius: 16px;
   border: none;
+  cursor: pointer;
 }
 
 .header__menu-button:hover {
   box-shadow: 1px 1px 32px #ffe600, -1px -1px 12px #ffed4d;
+}
+
+@media screen and (min-width: 1702px) and (max-width: 1922px) {
+  .section {
+    width: 68.34%;
+  }
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1700px) {

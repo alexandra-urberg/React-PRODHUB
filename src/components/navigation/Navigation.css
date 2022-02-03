@@ -47,6 +47,7 @@
   }
   .navigation__links {
     margin: 0 0 19px;
+    cursor: pointer;
   }
   .navigation__links:nth-child(4) {
     margin: 0;

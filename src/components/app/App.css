@@ -7,4 +7,5 @@
   font-family: 'Open Sans', sans-serif;
   color: #FFFFFF;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
