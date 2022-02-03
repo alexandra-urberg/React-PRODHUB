@@ -29,9 +29,11 @@ function Blogers() {
             <Card
               key={card.id}
               id={card.id}
+              video={card.video}
               image={card.image}
               name={card.name}
               insagram={card.insagram}
+              insta_link={card.insta_link}
               bussines={card.bussines}
               subscribers={card.subscribers}
               stories={card.stories}
@@ -50,13 +52,13 @@ function Blogers() {
         </p>
         <ul className="icons__container">
           <li className="icon__blue icons__btn">
-            <a className="icons__link" href="@">
+            <a className="icons__link" href="https://t.me/romashas">
               <img className="telegram" src={telegaWhite} alt="telegram_icon" />
               <p className="icon__subtitle">Telegram</p>
             </a>
           </li>
           <li className="icon__pink icons__btn">
-            <a className="icons__link" href="@">
+            <a className="icons__link" href="https://instagram.com/romashaseymur?utm_medium=copy_link">
               <img
                 className="instagramm"
                 src={instaWhite}
