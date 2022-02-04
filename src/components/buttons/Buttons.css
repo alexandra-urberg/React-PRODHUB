@@ -1,0 +1,95 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.button {
+  width: 161px;
+  height: 56px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 32px #ffe600, -1px -1px 12px #ffed4d;
+}
+
+.button:nth-child(2) {
+  margin-left: 13px;
+}
+
+.button__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #282828;
+  cursor: pointer;
+}
+
+.button__subtitle {
+  font-size: 1.125em;
+  line-height: 25.51px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 13px;
+}
+
+.button__gold {
+  display: flex;
+  justify-content: center;
+  background-color: #ffeb3d;
+}
+
+.instagramm {
+  width: 19px;
+  height: 19px;
+}
+
+.telegram {
+  width: 20px;
+  height: 17px;
+}
+
+.button__subtitle {
+  font-size: 1.125em;
+  line-height: 25.51px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 13px;
+}
+
+@media screen and (max-width: 1064px) {
+  .buttons {
+    display: flex;
+    list-style: none;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1064px) {
+  .button:nth-child(2) {
+    margin-left: 14%;
+  }
+}
+
+@media screen and (min-width: 440px) and (max-width: 750px) {
+  .button:nth-child(2) {
+    margin-left: 14px;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .button__gold {
+    display: flex;
+  }
+
+  .button {
+    width: 48%;
+  }
+  .button:nth-child(2) {
+    margin-left: 4%;
+  }
+}

@@ -5,6 +5,7 @@
 @import url(./components/container/Container.css);
 @import url(./components/navigation/Navigation.css);
 @import url(./components/icons/Icons.css);
+@import url(./components/buttons/Buttons.css);
 @import url(./components/main/Main.css);
 @import url(./components/promo/Promo.css);
 @import url(./components/examples/Examples.css);
@@ -16,3 +17,4 @@
 @import url(./components/footer/Footer.css);
 @import url(./components/popupNav/PopupNav.css);
 @import url(./components/popupReview/PopupReview.css);
+@import url(./components/controler/Controler.css);
