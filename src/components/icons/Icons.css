@@ -3,10 +3,6 @@
   justify-content: space-between;
 }
 
-.icons__link {
-  cursor: pointer;
-}
-
 .margin {
   margin-left: 13px;
 }
@@ -37,73 +33,12 @@
   background-image: url(../../images/instagram_black.png);
 }
 
-.icon__blue {
-  background-color: #239ad6;
-}
-
-.icon__blue:hover,
-.icon__pink:hover {
-  background: linear-gradient(80.24deg, #ffe600 0%, #ffed4d 100%);
-}
-
-.icon__pink {
-  background: radial-gradient(
-      179.06% 43.44% at -16.75% 7.2%,
-      #3771c8 0%,
-      #3771c8 12.8%,
-      rgba(102, 0, 255, 0) 100%
-    ),
-    radial-gradient(
-      92.18% 99.11% at 26.56% 107.7%,
-      #ffdd55 0%,
-      #ffdd55 10%,
-      #ff543e 50%,
-      #c837ab 100%
-    );
-}
-
-.icons__btn {
-  border-radius: 16px;
-}
-
 .icons__link {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-}
-
-.icon__subtitle {
-  font-size: 1.125em;
-  line-height: 25.51px;
-  font-style: normal;
-  font-weight: normal;
-  margin-left: 13px;
-}
-
-.icons__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.icon__blue,
-.icon__pink {
-  display: flex;
-  justify-content: center;
-}
-
-.icons__btn {
-  width: 161px;
-  height: 56px;
-  cursor: pointer;
-}
-
-.icons__btn:nth-child(2) {
-  margin-left: 13px;
 }
 
 @media screen and (max-width: 1064px) {
@@ -118,12 +53,6 @@
     margin: 0;
   }
 
-  .icons__container {
-    display: flex;
-    list-style: none;
-    margin-top: 24px;
-  }
-
   .icon__instagramm {
     width: 19px;
     height: 19px;
@@ -132,32 +61,5 @@
   .icon__telegram {
     width: 20px;
     height: 17px;
-  }
-}
-
-@media screen and (min-width: 751px) and (max-width: 1064px) {
-
-  .icons__btn:nth-child(2) {
-    margin-left: 14%;
-  }
-}
-
-@media screen and (min-width: 440px) and (max-width: 750px) {
-  .icons__btn:nth-child(2) {
-    margin-left: 14px;
-  }
-}
-
-@media screen and (max-width: 439px) {
-  .icon__blue,
-  .icon__pink {
-    display: flex;
-  }
-
-  .icons__btn {
-    width: 48%;
-  }
-  .icons__btn:nth-child(2) {
-    margin-left: 4%;
   }
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import MediaQuery from "react-responsive";
-import telegaWhite from "../../images/telega_white.svg";
-import instaWhite from "../../images/insta_white.png";
+import Buttons from "../buttons/Buttons";
 
 function Icons() {
   return (
@@ -11,34 +10,16 @@ function Icons() {
           <a className="icon__link" href="https://t.me/romashas">
             <div className="icon icon_gold icon__telegram" />
           </a>
-          <a className="icon__link margin" href="https://instagram.com/romashaseymur?utm_medium=copy_link">
+          <a
+            className="icon__link margin"
+            href="https://instagram.com/romashaseymur?utm_medium=copy_link"
+          >
             <div className="icon icon_gold icon__instagramm" />
           </a>
         </MediaQuery>
         <MediaQuery maxWidth={1064}>
           <h2 className="icons__title">Связь со мной</h2>
-          <ul className="icons__container">
-            <li className="icon__blue icons__btn">
-              <a className="icons__link" href="https://t.me/romashas">
-                <img
-                  className="icon__telegram"
-                  src={telegaWhite}
-                  alt="telegram_icon"
-                />
-                <p className="icon__subtitle">Telegram</p>
-              </a>
-            </li>
-            <li className="icon__pink icons__btn">
-              <a className="icons__link" href="https://instagram.com/romashaseymur?utm_medium=copy_link">
-                <img
-                  className="icon__instagramm"
-                  src={instaWhite}
-                  alt="instagram_icon"
-                />
-                <p className="icon__subtitle">Instagram</p>
-              </a>
-            </li>
-          </ul>
+          <Buttons />
         </MediaQuery>
       </>
     </div>

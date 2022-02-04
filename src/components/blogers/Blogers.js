@@ -1,9 +1,8 @@
 import React from "react";
 import blogerInfo from "../../utils/blogersInformation";
 import info from "../../images/info.svg";
-import telegaWhite from "../../images/telega_white.svg";
-import instaWhite from "../../images/insta_white.png";
 import Card from "../card/Card";
+import Buttons from "../buttons/Buttons";
 
 function Blogers() {
   return (
@@ -50,24 +49,7 @@ function Blogers() {
         <p className="description text offer__margin_b">
           Напишите прямо сейчас
         </p>
-        <ul className="icons__container">
-          <li className="icon__blue icons__btn">
-            <a className="icons__link" href="https://t.me/romashas">
-              <img className="telegram" src={telegaWhite} alt="telegram_icon" />
-              <p className="icon__subtitle">Telegram</p>
-            </a>
-          </li>
-          <li className="icon__pink icons__btn">
-            <a className="icons__link" href="https://instagram.com/romashaseymur?utm_medium=copy_link">
-              <img
-                className="instagramm"
-                src={instaWhite}
-                alt="instagram_icon"
-              />
-              <p className="icon__subtitle">Instagram</p>
-            </a>
-          </li>
-        </ul>
+        <Buttons />
       </div>
     </section>
   );
