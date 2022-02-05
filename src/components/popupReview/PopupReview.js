@@ -1,17 +1,17 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import Controler from "../controler/Controler";
 
 function PopupReview({ isOpen, onClose, video }) {
-  const[state, setState] = useState({playing: false})
+  const [isPlay, setIsPlay] = useState({ playing: false });
 
-  const {playing} = state;
+  const { playing } = isPlay;
 
   const handleToggle = () => {
-    setState({...state, playing: !state.playing})
-  }
-  
-  console.log(state.playing)
+    setIsPlay({ ...isPlay, playing: !isPlay.playing });
+  };
+
+  console.log(isPlay.playing);
   return (
     <div className={`popupNav__close ${isOpen ? "popupReview__open" : ""}`}>
       <div className="popupReview">
@@ -29,7 +29,7 @@ function PopupReview({ isOpen, onClose, video }) {
             playing={playing}
             controls={false}
           />
-          <Controler play={state.playing} handlePlayPause={handleToggle}/>
+          <Controler play={isPlay.playing} handlePlayPause={handleToggle} />
         </div>
       </div>
     </div>
