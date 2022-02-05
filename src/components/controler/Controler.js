@@ -1,8 +1,8 @@
 import React from "react";
 
-function Controler() {
+function Controler({handlePlayPause, play}) {
     return(
-        <div></div>
+        <div className={`${!play ? "controls" : "controlsPause"}`} onClick={handlePlayPause}></div>
     )
 }
 
