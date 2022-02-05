@@ -18,7 +18,7 @@
 
 .popupReview {
   width: 42.3%;
-  height: 592px;
+  height: 40%;
   flex-direction: column;
   margin: 0 auto;
   padding: 24px;
@@ -42,8 +42,10 @@
 }
 
 .popupReview__img {
-  width: 99%;
-  height: 512px;
+  margin: 0 auto;
+  width: 94%;
+  height: auto;
+
   border-radius: 16px;
   border: none;
 }
@@ -57,14 +59,18 @@
     font-size: 1.5em;
     line-height: 26.4px;
   }
+}
 
+@media screen and (min-width: 326px) and (max-width: 700px) {
   .popupReview {
-    width: 287px;
-    height: 272px;
+    width: 60%;
+    height: 35%;
   }
+}
 
-  .popupReview__img {
-    width: 99%;
-    height: 192px;
+@media screen  and (max-width: 325px) {
+  .popupReview {
+    width: 257px;
+    height: 30%;
   }
 }

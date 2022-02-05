@@ -22,6 +22,8 @@
   color: inherit;
   font-size: 1.125em;
   line-height: 25.51px;
+  font-family: "Open Sans";
+  font-weight: 700;
 }
 
 .navigation__link:hover {
@@ -36,7 +38,8 @@
   .navigation__title {
     font-size: 1.5em;
     line-height: 26.4px;
-    font-style: normal;
+    font-family: "Nunito Sans";
+    font-weight: 900;
     text-align: center;
     margin: 51px auto 26px;
   }
@@ -51,5 +54,26 @@
   }
   .navigation__links:nth-child(4) {
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1064) {
+  .navigation__link {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    font-size: 1.2em;
+    line-height: 25.51px;
+    font-family: "Open Sans";
+    font-weight: 700;
+  }
+
+  .navigation__title {
+    font-size: 1.6em;
+    line-height: 26.4px;
+    font-family: "Nunito Sans";
+    font-weight: 900;
+    text-align: center;
+    margin: 51px auto 26px;
   }
 }

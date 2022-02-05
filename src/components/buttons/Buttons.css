@@ -32,8 +32,8 @@
 .button__subtitle {
   font-size: 1.125em;
   line-height: 25.51px;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Open Sans';
+  font-weight: 700;
   margin-left: 13px;
 }
 
@@ -51,14 +51,6 @@
 .telegram {
   width: 20px;
   height: 17px;
-}
-
-.button__subtitle {
-  font-size: 1.125em;
-  line-height: 25.51px;
-  font-style: normal;
-  font-weight: normal;
-  margin-left: 13px;
 }
 
 @media screen and (max-width: 1064px) {

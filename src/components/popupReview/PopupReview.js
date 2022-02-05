@@ -1,4 +1,8 @@
 import React from "react";
+import ReactPlayer from "react-player";
+import Controler from "../controler/Controler";
+
+
 
 function PopupReview({ isOpen, onClose, video }) {
   
@@ -13,7 +17,16 @@ function PopupReview({ isOpen, onClose, video }) {
             onClick={onClose}
           ></button>
         </div>
-        <iframe  className="popupReview__img" title="trueTitle" src={isOpen ? video : ""} allow="accelerometer clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <div className="popupReview__img">
+        <ReactPlayer 
+        className="popupReview__img"
+          url={`${isOpen ? video : "none"}`}
+             pip 
+             width="100%"
+             height="20%"
+           playing />
+          <Controler />
+         </div>
       </div>
     </div>
   );

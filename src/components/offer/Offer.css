@@ -27,16 +27,6 @@
   margin-bottom: 24px;
 }
 
-.instagramm {
-  width: 19px;
-  height: 19px;
-}
-
-.telegram {
-  width: 20px;
-  height: 17px;
-}
-
 @media screen and (max-width: 1130px) {
   .offer {
     width: 100%;
