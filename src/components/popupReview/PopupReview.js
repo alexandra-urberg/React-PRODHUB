@@ -23,11 +23,10 @@ function PopupReview({ isOpen, onClose, video, videoId }) {
         <div className="popupReview__wrapper">
           <ReactPlayer
             url={`${isOpen ? video : "none"}`}
-            pip
+            pip={true}
             width="100%"
             height="100%"
             playing={playing}
-            controls={false}
           />
           <Controler play={isPlay.playing} handlePlayPause={handleToggle} />
         </div>
