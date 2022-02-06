@@ -1,4 +1,4 @@
-# React-PROHUB
+# React-PRODHUB
 React-landing project(React + CSS) 
 
 Landing project for info-business/instagram's account development
