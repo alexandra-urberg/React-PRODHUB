@@ -8,6 +8,11 @@ import alexeysVideo from '../videos/kurelenokk.MP4';
 import mariasVideo from '../videos/kalininamariya.MP4';
 import egorsVideo from '../videos/egor_lesnoy.mp4';
 import dariasVideo from '../videos/dariaastakhova.MP4';
+import dariaCover from '../images/daria.png';
+import polinaCover from '../images/polina.png'
+import alexayCover from '../images/alexey.png';
+import egorCover from '../images/egor.png';
+import mariaCover from '../images/maria.png';
 
 
 const blogerInfo = [
@@ -23,6 +28,7 @@ const blogerInfo = [
         salary_after: "700 000",
         review: "#",
         video: polinasVideo,
+        coverVideo: polinaCover,
         id: 1,
     },
     {
@@ -37,6 +43,7 @@ const blogerInfo = [
         salary_after: "1 800 000",
         review: "#",
         video: alexeysVideo,
+        coverVideo: alexayCover,
         id: 2,
     },
     {
@@ -51,6 +58,7 @@ const blogerInfo = [
         salary_after: "7 300 000",
         review: "#",
         video: mariasVideo,
+        coverVideo: mariaCover,
         id: 3,
     },
     {
@@ -65,6 +73,7 @@ const blogerInfo = [
         salary_after: "299 000",
         review: "#",
         video: egorsVideo,
+        coverVideo: egorCover,
         id: 4,
     },
     {
@@ -79,6 +88,7 @@ const blogerInfo = [
         salary_after: "380 000",
         review: "#",
         video: dariasVideo,
+        coverVideo: dariaCover,
         id: 5,
     },
 ]

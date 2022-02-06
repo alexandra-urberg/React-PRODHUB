@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import Controler from "../controler/Controler";
 
-function PopupReview({ isOpen, onClose, video, videoId }) {
+function PopupReview({ isOpen, onClose, video, coverVideo }) {
   const [isPlay, setIsPlay] = useState({ playing: false });
 
   const { playing } = isPlay;
@@ -24,6 +24,13 @@ function PopupReview({ isOpen, onClose, video, videoId }) {
           <ReactPlayer
             url={`${isOpen ? video : "none"}`}
             pip={true}
+            config={{
+              file: { 
+                attributes: { 
+                  poster: coverVideo 
+                } 
+              } 
+            }}
             width="100%"
             height="100%"
             playing={playing}

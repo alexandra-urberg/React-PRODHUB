@@ -76,7 +76,7 @@ function Card(card) {
         onClose={handleCloseVideo}
         isOpen={isPopupVideo}
         video={card.video}
-        videoId={card.id}
+        coverVideo={card.coverVideo}
       />
     </li>
   );

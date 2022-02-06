@@ -31,6 +31,7 @@ function Blogers() {
               video={card.video}
               image={card.image}
               name={card.name}
+              coverVideo={card.coverVideo}
               insagram={card.insagram}
               insta_link={card.insta_link}
               bussines={card.bussines}
