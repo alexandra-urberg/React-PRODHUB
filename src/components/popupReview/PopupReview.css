@@ -1,30 +1,12 @@
-.popupNav__close {
-  display: none;
-  opacity: 0;
-  background-color: #28272a;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  transition: all 1s ease 0.2s;
-  z-index: 2;
-}
-
-.popupReview__open {
-    display: flex;
-    opacity: 1;
-}
-
 .popupReview {
-  width: 42.3%;
-  height: 40%;
+  display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  width: 815px;
+  height: 592px;
   padding: 24px;
+  margin: 0 auto;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
   border-radius: 16px;
-  margin-top: 120px;
 }
 
 .popupReview__container {
@@ -35,42 +17,63 @@
 }
 
 .popupReview__text {
-  font-size: 1.87em;
+  font-size: 1.6em;
   line-height: 33px;
   font-weight: 900;
   font-family: "Nunito Sans";
 }
 
-.popupReview__img {
-  margin: 0 auto;
-  width: 94%;
-  height: auto;
-
-  border-radius: 16px;
-  border: none;
+.popupNav__btn {
+  height: 56px;
+  width: 56px;
 }
 
-@media screen and (max-width: 700px) {
+.popupReview__wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 86.5%;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1100px) {
   .popupReview {
-    width: 89.9%;
+    width: 76%;
+    height: 60%;
+  }
+
+  .popupReview__wrapper {
+    height: 78.7%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .popupReview {
+    width: 80%;
+    height: 420px;
+  }
+
+  .popupReview__wrapper {
+    height: 78.7%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .popupReview {
+    width: 76.6%;
+    height: 272px;
   }
 
   .popupReview__text {
     font-size: 1.5em;
     line-height: 26.4px;
+    font-weight: 900;
+    font-family: "Nunito Sans";
   }
-}
 
-@media screen and (min-width: 326px) and (max-width: 700px) {
-  .popupReview {
-    width: 60%;
-    height: 35%;
-  }
-}
-
-@media screen  and (max-width: 325px) {
-  .popupReview {
-    width: 257px;
-    height: 30%;
+  .popupReview__wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 70.7%;
   }
 }

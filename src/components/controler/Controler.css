@@ -1,0 +1,33 @@
+.controls {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  position: absolute;
+  cursor: pointer;
+
+  background-image: url(../../images/play__btn.png);
+  background-size: cover;
+  height: 56px;
+  width: 56px;
+}
+
+.controlsPause {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  position: absolute;
+  cursor: pointer;
+
+  background-image: url(../../images/pause-button.png);
+  background-size: cover;
+  height: 56px;
+  width: 56px;
+
+  opacity: 0;
+}
+
+.controlsPause:hover {
+  opacity: 1;
+}

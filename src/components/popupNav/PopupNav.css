@@ -1,6 +1,7 @@
 .popupNav {
   display: none;
   opacity: 0;
+  height: 100vh;
   background-color: #28272a;
   position: fixed;
   top: 0;
