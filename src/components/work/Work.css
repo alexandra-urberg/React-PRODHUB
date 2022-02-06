@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding-top: 192px;
+  padding-top: 20px;
+  padding-bottom: 172px;
 }
 
 .work__container {
