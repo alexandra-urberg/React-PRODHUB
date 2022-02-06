@@ -11,7 +11,7 @@ function PopupNav({ onClose, isOpen }) {
           <button className="popupNav__btn" onClick={onClose}></button>
         </div>
         <div className="popupNav__main">
-          <Navigation />
+          <Navigation onClose={onClose}/>
         </div>
         <div className="popupNav__margin">
           <Icons />
