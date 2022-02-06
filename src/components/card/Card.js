@@ -9,7 +9,7 @@ function Card(card) {
     setIsPopupVideo(true);
   };
 
-  const handleCloseVideo= () => {
+  const handleCloseVideo = () => {
     setIsPopupVideo(false);
   };
 
@@ -19,20 +19,34 @@ function Card(card) {
         <div className="card__user">
           <img className="card__image" src={card.image} alt={card.name} />
           <div className="card__user-personality">
-            <p className={`card__name gold ${card.id === 2 ? "card__name-s" : "" }`}>{card.name}</p>
+            <p
+              className={`card__name gold ${
+                card.id === 2 ? "card__name-s" : ""
+              }`}
+            >
+              {card.name}
+            </p>
             <div className="card__user-information">
               <img
                 className="card__icon"
                 src={instaColor}
                 alt="instagram_icon"
               />
-              <a className="card__insta-name" href={card.insta_link}>{card.insagram}</a>
+              <a className="card__insta-name" href={card.insta_link}>
+                {card.insagram}
+              </a>
             </div>
           </div>
         </div>
-        <h3 className={`card__area ${card.id === 2 ? "card__name-sp" : "" }`}>{card.bussines}</h3>
-        <ul className={`card__box ${card.id === 1 ? "card__user-mg" : "" }`}>
-          <li className={`card__user-info ${card.id === 5 ? "card__user-mg" : "" }`}>
+        <h3 className={`card__area ${card.id === 2 ? "card__name-sp" : ""}`}>
+          {card.bussines}
+        </h3>
+        <ul className={`card__box ${card.id === 1 ? "card__user-mg" : ""}`}>
+          <li
+            className={`card__user-info ${
+              card.id === 5 ? "card__user-mg" : ""
+            }`}
+          >
             <p className="card__insta-name">Подписчиков:</p>
             <p className="card__amount">{card.subscribers}к</p>
           </li>
@@ -58,7 +72,12 @@ function Card(card) {
           Видеоотзыв
         </button>
       </div>
-      <PopupReview onClose={handleCloseVideo} isOpen={isPopupVideo} video={card.video}/>
+      <PopupReview
+        onClose={handleCloseVideo}
+        isOpen={isPopupVideo}
+        video={card.video}
+        videoId={card.id}
+      />
     </li>
   );
 }
