@@ -7,7 +7,7 @@ import polinasVideo from '../videos/polina_skirda.MP4';
 import alexeysVideo from '../videos/kurelenokk.MP4';
 import mariasVideo from '../videos/kalininamariya.MP4';
 import egorsVideo from '../videos/egor_lesnoy.mp4';
-import dariasVideo from '../videos/dariaastakhova.MP4';
+import dariasVideo from '../videos/dariaastakhova.MOV';
 import dariaCover from '../images/daria.png';
 import polinaCover from '../images/polina.png'
 import alexayCover from '../images/alexey.png';
